@@ -1,0 +1,173 @@
+/* Center everything */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+
+
+
+/* Logo Styling */
+.logo {
+    width: 120px; /* Adjust size */
+    margin-bottom: 10px;
+}
+
+/* Heading */
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    background: #ff4d4d;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background: #cc0000;
+}
+
+/* Center Form */
+.form-container {
+    width: 500px; /* Increased size */
+    background: white;
+    padding: 30px; /* Increased padding */
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 50px auto;
+    text-align: center;
+}
+
+/* Form Heading */
+.form-container h2 {
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+/* Form Fields */
+.form-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Submit Button */
+button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cc0000;
+}
+
+
+
+
+
+
+
+/* Center Form */
+.form-container {
+    width: 400px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 50px auto;
+    text-align: center;
+}
+
+/* Form Heading */
+.form-container h2 {
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+/* Form Fields */
+.form-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Inline fields (for age & gender) */
+.inline-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inline-group .form-group {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Submit Button */
+button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cc0000;
+}
